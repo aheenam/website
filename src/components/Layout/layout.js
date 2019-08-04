@@ -13,8 +13,15 @@ const Layout = ({ children }) => {
       </header>
       <main className="flex-grow p-4">{children}</main>
       <footer className="p-4 text-xs">
-        <Link to="/legal">Legal information</Link>
-        <Link to="/privacy">Privacy</Link>
+        <Link className="inline-block mr-2 underline text-gray-600" to="/legal">
+          Legal information
+        </Link>
+        <Link
+          className="inline-block mr-2 underline text-gray-600"
+          to="/privacy"
+        >
+          Privacy
+        </Link>
       </footer>
     </div>
   )
