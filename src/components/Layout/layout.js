@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <Logo />
       </header>
       <main className="flex-grow p-4">{children}</main>
-      <footer className="p-4">
+      <footer className="p-4 text-xs">
         <Link to="/legal">Legal information</Link>
         <Link to="/privacy">Privacy</Link>
       </footer>
