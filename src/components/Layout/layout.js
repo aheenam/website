@@ -9,7 +9,9 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col justify-between min-h-screen">
       <header className="p-4">
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </header>
       <main className="flex-grow p-4">{children}</main>
       <footer className="p-4 text-xs">
