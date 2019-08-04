@@ -7,16 +7,16 @@ import Logo from "../Logo"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="flex flex-col justify-between min-h-screen">
       <header>
         <Logo />
       </header>
-      <main>{children}</main>
+      <main className="flex-grow">{children}</main>
       <footer>
         <Link to="/legal">Legal information</Link>
         <Link to="/privacy">Privacy</Link>
       </footer>
-    </>
+    </div>
   )
 }
 
