@@ -8,13 +8,13 @@ import Logo from "../Logo"
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col justify-between min-h-screen">
-      <header className="p-4 md:p-8">
+      <header className="p-4 md:p-8 lg:pl-32">
         <Link to="/">
           <Logo />
         </Link>
       </header>
-      <main className="flex-grow p-4 md:p-8">{children}</main>
-      <footer className="p-4 text-xs md:p-8">
+      <main className="flex-grow p-4 md:p-8 lg:pl-32">{children}</main>
+      <footer className="p-4 text-xs md:p-8 lg:pl-32">
         <Link className="inline-block mr-2 underline text-gray-600" to="/legal">
           Legal information
         </Link>
