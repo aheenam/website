@@ -24,7 +24,7 @@
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "postcss": "^8.2.13",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "tailwindcss": "^2.1.2"
   },
   "keywords": [
