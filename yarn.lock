@@ -1166,14 +1166,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.12.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
-  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.14.0":
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.5.tgz#665450911c6031af38f81db530f387ec04cd9a98"
   integrity sha512-121rumjddw9c3NCQ55KGkyE1h/nzWhU/owjhw0l4mQrkzz4x9SGS1X8gFLraHwX7td3Yo4QTL+qj0NcIzN87BA==
@@ -6119,10 +6112,10 @@ gatsby-page-utils@^1.7.1:
     lodash "^4.17.21"
     micromatch "^4.0.2"
 
-gatsby-plugin-google-gtag@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.7.1.tgz#9e355d66b4ec636965a610b54955d79b647e2f2d"
-  integrity sha512-IiMQ/wRc1+k4aPzwNIKG7vLupr1dG1LzFmnWLoZ8VWGZuvHBmb/I//hDo36azDKezH3gsJQ0tLvshFO8r9asQg==
+gatsby-plugin-google-gtag@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.8.0.tgz#8272b0a78fd3336e3681c12fbf5cd17ca7710b68"
+  integrity sha512-f1fTdhoXfrB6oaZp/FlNVRxmr8SXqLKvKPldXCtobxeGpzNekjnGvsaeqFC9yPT4mOk/hnB1R1bLKXuv6iXk7A==
   dependencies:
     "@babel/runtime" "^7.14.0"
     minimatch "^3.0.4"
