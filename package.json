@@ -22,10 +22,10 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.6",
-    "postcss": "^8.3.8",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.16"
+    "tailwindcss": "^2.2.19"
   },
   "keywords": [
     "gatsby"
